@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a05c6e8-d409-4b27-9214-b274901c36c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/drf-frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/PostLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/StylerUseClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/blogapi/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogapi/src/components/Posts.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogapi/src/components/StylerUseClasses.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogapi/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogapi/src/setupTests.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KLqqmaTAUswNMFD8uBh79CEKc0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "14.15.0",
+    "javascript.nodejs.core.library.typings.version": "14.18.36",
+    "last_opened_file_path": "C:/drf-frontend",
+    "nodejs_interpreter_path": "C:/Users/User/AppData/Roaming/JetBrains/PyCharm2022.2/node/node-v14.15.0-win-x64/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a05c6e8-d409-4b27-9214-b274901c36c5" name="Changes" comment="" />
+      <created>1673764404202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673764404202</updated>
+      <workItem from="1673764405350" duration="35000" />
+      <workItem from="1673769106214" duration="1159000" />
+      <workItem from="1673770345010" duration="509000" />
+      <workItem from="1673775215396" duration="16807000" />
+      <workItem from="1673833040098" duration="894000" />
+      <workItem from="1673889037774" duration="1840000" />
+      <workItem from="1673921776198" duration="1761000" />
+      <workItem from="1673977711629" duration="843000" />
+      <workItem from="1674274407300" duration="12819000" />
+      <workItem from="1674368244303" duration="4674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
