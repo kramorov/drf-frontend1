@@ -1,13 +1,16 @@
 import React from 'react';
+import {BrowserRouter ,Route ,Routes} from 'react-router-dom'
 //import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import './index.css';
-//import { BrowserRouter, Router, Routes, Route} from 'react-router-dom';
-import {BrowserRouter} from 'react-router-dom'
-import ReactDOM from 'react-dom' //"react-dom/client";
 import App from './App';
-
+import Register from './components/register';
+import Login from './components/login';
+import Logout from './components/logout';
+import PageLayout from './components/layout';
 import {createRoot} from 'react-dom/client';
+import Header from "./components/header";
+// import {Layout} from "./components/layout";
 
 const container = document.getElementById ( 'root' );
 const root = createRoot ( container ); // createRoot(container!) if you use TypeScript
@@ -24,7 +27,20 @@ const root = createRoot ( container ); // createRoot(container!) if you use Type
 root.render (
     <React.StrictMode>
         <BrowserRouter>
-            <App/>
+            <header>
+                <Header/>
+                {/*<Login />*/ }
+            </header>
+            <Routes>
+                <Route path="/" element={ <PageLayout/> }>
+
+                    <Route path="register" element={ <Register/> }/>
+                    {/*<Route path="login" element={ <Login/> }/>*/ }
+                    <Route path="logout" element={ <Logout/> }/>
+                    <Route index element={ <App/> }/>
+                </Route>
+            </Routes>
+            {/*<App/>*/ }
         </BrowserRouter>
     </React.StrictMode>
 )

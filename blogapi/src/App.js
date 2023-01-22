@@ -1,37 +1,53 @@
-import React ,{useMemo ,useState} from 'react';
+import React ,{useEffect ,useMemo ,useState} from 'react';
 import {ThemeProvider as MuiThemeProvider ,StylesProvider} from '@material-ui/core/styles';
 import {ThemeProvider ,useTheme} from '@emotion/react';
 import './App.css';
 import logo from './logo.svg';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Posts from './components/Posts';
-import PostLoadingComponent from './components/PostLoading';
-import theme from "./components/StylerUseClasses";
+
+import Posts from './components/posts';
+import PostLoadingComponent from './components/postLoading';
+import Register from './components/register';
+import Login from './components/login';
+import Logout from './components/logout';
+import {theme} from "./components/StylerUseClasses";
+
+// import {Logout} from "@mui/icons-material";
 
 
 function App () {
-    const PostLoading = PostLoadingComponent ( Posts );
-    const [appState ,setAppState] = useState ( {
-        loading: false ,
-        posts: null ,
-    } );
+    /*    const PostLoading = PostLoadingComponent ( Posts );
+        const [appState ,setAppState] = useState ( {
+            loading: false ,
+            posts: null ,
+        } );
+        useEffect(() => {
+            setAppState({ loading: true });
+            const apiUrl = `http://127.0.0.1:8000/api/`;
+            fetch(apiUrl)
+                .then((data) => data.json())
+                .then((posts) => {
+                    setAppState({ loading: false, posts: posts });
 
+                    console.log(posts);
+                });
+
+        }, [setAppState]);*/
     return (
-        <StylesProvider injectFirst>
-            <MuiThemeProvider theme={ theme }>
-                <ThemeProvider theme={ theme }>
-                    <div className="App">
-                        <Header title="My header222" subtitle="subtitle2"/>
-                        <MainLogo message="My content"/>
-                        <h1>Latest Posts</h1>
-                        <PostLoading isLoading={ appState.loading } posts={ appState.posts }/>
-                        <Footer/>
+        /*        <StylesProvider injectFirst>
+                    <MuiThemeProvider theme={ theme }>
+                        <ThemeProvider theme={ theme }>*/
+        <div className="App">
+            {/*                        <Logout />
+                        <Header title="My header222" subtitle="subtitle2"/>*/ }
+            {/*<MainLogo message="My content"/>*/ }
+            <h1>Latest Posts</h1>
+            {/*<PostLoading isLoading={ appState.loading } posts={ appState.posts }/>*/ }
+            {/*<Footer/>*/ }
 
-                    </div>
-                </ThemeProvider>
-            </MuiThemeProvider>
-        </StylesProvider>
+        </div>
+        /*                </ThemeProvider>
+                    </MuiThemeProvider>
+                </StylesProvider>*/
     );
 }
 

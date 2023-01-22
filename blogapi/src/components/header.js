@@ -22,7 +22,13 @@ function Header (props) {
         <React.Fragment>
             <CssBaseline/>
             <Box sx={ {flexGrow: 1} }>
-                <AppBar position="static">
+                <AppBar
+                    position="static"
+                    // color={"white"}
+                    elevation={ 0 }
+                    className={ "appBar" }
+
+                >
                     <Toolbar>
                         <IconButton
                             size="large"

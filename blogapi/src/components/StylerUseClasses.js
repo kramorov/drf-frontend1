@@ -2,10 +2,10 @@ import {useMemo} from 'react';
 import {css} from '@emotion/css';
 import {useTheme} from '@emotion/react';
 
-const theme = {
+export const theme = {
     background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)' ,
 };
-
+/*
 const postStyles = {
     paper: {
         marginTop: theme.spacing ( 8 ) ,
@@ -37,8 +37,8 @@ const postStyles = {
         textAlign: 'left' ,
         marginBottom: theme.spacing ( 2 ) ,
     } ,
-};
-
+};*/
+/*
 const useClasses = stylesElement => {
     const theme = useTheme ();
     return useMemo ( () => {
@@ -52,7 +52,7 @@ const useClasses = stylesElement => {
         console.log ( prepared )
         return prepared;
     } ,[stylesElement ,theme] );
-};
+};*/
 
-const postClasses = useClasses ( postStyles ); // useStyles from custom hook
-export default postClasses;
+/*const postClasses = useClasses ( postStyles ); // useStyles from custom hook*/
+// export default postClasses;

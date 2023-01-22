@@ -2,39 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a05c6e8-d409-4b27-9214-b274901c36c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/drf-frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/components/PostLoading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/components/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/components/StylerUseClasses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapi/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/components/PostLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/components/postLoading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/components/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/components/StylerUseClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/components/StylerUseClasses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +24,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kramorov &lt;kramorovs@mail.ru&gt;" />
+        <option value="kramorov" />
+        <option value="Sergey Kramorov" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/blogapi/src/App.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/blogapi/src/components/Posts.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/blogapi/src/components/StylerUseClasses.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogapi/src/components/posts.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/blogapi/src/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/blogapi/src/setupTests.js" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -96,8 +85,16 @@
       <workItem from="1673921776198" duration="1761000" />
       <workItem from="1673977711629" duration="843000" />
       <workItem from="1674274407300" duration="12819000" />
-      <workItem from="1674368244303" duration="4674000" />
+      <workItem from="1674368244303" duration="19019000" />
     </task>
+    <task id="LOCAL-00001" summary="22/01/23 @ 12-01">
+      <created>1674378251705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674378251705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +110,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22/01/23 @ 12-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="22/01/23 @ 12-01" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
