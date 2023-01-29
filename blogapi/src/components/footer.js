@@ -10,7 +10,7 @@ function Copyright () {
         <Typography variant="body2" color="textSecondary" align="center">
             { 'Copyright © ' }
             <Link color="inherit" href="https://material-ui.com/">
-                Your Website
+                Sergey Kramorov
             </Link>{ ' ' }
             { new Date ().getFullYear () }
             { '.' }
@@ -52,8 +52,8 @@ function Footer () {
 
     return (
         <React.Fragment>
-            <Container maxWidth="md" component="footer" className='footer'>
-                <Grid container spacing={ 4 } justify="space-evenly">
+            <Container sx={ {width: '100%' ,position: 'fixed' ,bottom: 0} } component="footer" className='footer'>
+                <Grid container spacing={ 4 } display="flex" justify="space-evenly">
                     { footers.map ( (footer) => (
                         <Grid item xs={ 6 } sm={ 3 } key={ footer.title }>
                             <Typography variant="h6" color="textPrimary" gutterBottom>
@@ -73,7 +73,7 @@ function Footer () {
                 </Grid>
                 <Box mt={ 5 }>
                     <Copyright/>
-                </Box>
+                </Box>;
             </Container>
         </React.Fragment>
     );

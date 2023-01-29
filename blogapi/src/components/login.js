@@ -34,7 +34,7 @@ import Container from '@mui/material/Container';
 	},
 }));*/
 
-export default function SignIn () {
+export default function Login () {
     const navigate = useNavigate ();
     const initialFormData = Object.freeze ( {
         email: '' ,
@@ -78,7 +78,7 @@ export default function SignIn () {
             <div className='paper'>
                 <Avatar className='avatar'></Avatar>
                 <Typography component="h1" variant="h5">
-                    Sign in
+                    Войти
                 </Typography>
                 <form className='form' noValidate>
                     <TextField
@@ -87,7 +87,7 @@ export default function SignIn () {
                         required
                         fullWidth
                         id="email"
-                        label="Email Address"
+                        label="Email"
                         name="email"
                         autoComplete="email"
                         autoFocus
@@ -99,7 +99,7 @@ export default function SignIn () {
                         required
                         fullWidth
                         name="password"
-                        label="Password"
+                        label="Пароль"
                         type="password"
                         id="password"
                         autoComplete="current-password"
@@ -107,7 +107,7 @@ export default function SignIn () {
                     />
                     <FormControlLabel
                         control={ <Checkbox value="remember" color="primary"/> }
-                        label="Remember me"
+                        label="Запомнить меня"
                     />
                     <Button
                         type="submit"
@@ -117,7 +117,7 @@ export default function SignIn () {
                         className='submit'
                         onClick={ handleSubmit }
                     >
-                        Sign In
+                        Войти в систему
                     </Button>
                     <Grid container>
                         <Grid item xs>
@@ -127,7 +127,7 @@ export default function SignIn () {
                         </Grid>
                         <Grid item>
                             <Link href="#" variant="body2">
-                                { "Don't have an account? Sign Up" }
+                                { "Нет аккаунта? Зарегистрируйтесь" }
                             </Link>
                         </Grid>
                     </Grid>

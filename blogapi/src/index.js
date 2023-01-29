@@ -9,38 +9,33 @@ import Login from './components/login';
 import Logout from './components/logout';
 import PageLayout from './components/layout';
 import {createRoot} from 'react-dom/client';
+import CssBaseline from '@mui/material/CssBaseline';
 import Header from "./components/header";
 // import {Layout} from "./components/layout";
+import theme from './components/theme';
+import {ThemeProvider} from "@mui/material";
 
-const container = document.getElementById ( 'root' );
-const root = createRoot ( container ); // createRoot(container!) if you use TypeScript
-//root.render(<App tab="home" />);
+const rootElement = document.getElementById ( 'root' );
+const root = createRoot ( rootElement ); // createRoot(container!) if you use TypeScript
 
-// ReactDOM.render(
-//     <React.StrictMode>
-//         <BrowserRouter>
-//                 <App />
-//         </BrowserRouter>
-//     </React.StrictMode>,
-//     document.getElementById('root')
-// )
 root.render (
     <React.StrictMode>
-        <BrowserRouter>
-            <header>
-                <Header/>
-                {/*<Login />*/ }
-            </header>
-            <Routes>
-                <Route path="/" element={ <PageLayout/> }>
 
-                    <Route path="register" element={ <Register/> }/>
-                    {/*<Route path="login" element={ <Login/> }/>*/ }
-                    <Route path="logout" element={ <Logout/> }/>
-                    <Route index element={ <App/> }/>
-                </Route>
-            </Routes>
-            {/*<App/>*/ }
+        <BrowserRouter>
+            <ThemeProvider theme={ theme }>
+                <CssBaseline/>
+
+                <Routes>
+                    <Route path="/" element={ <PageLayout/> }>
+
+                        <Route path="register" element={ <Register/> }/>
+                        <Route path="login" element={ <Login/> }/>
+                        <Route path="logout" element={ <Logout/> }/>
+                        <Route index element={ <App/> }/>
+                    </Route>
+                </Routes>
+                {/*<App/>*/ }
+            </ThemeProvider>
         </BrowserRouter>
     </React.StrictMode>
 )

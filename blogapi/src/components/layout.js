@@ -3,10 +3,14 @@ import Header from './header';
 import Footer from './footer';
 
 const PageLayout = () => {
-    return ( <>
-            {/*<Header/>*/ }
+    return (<>
+            <header>
+                <Header/>
+            </header>
             <Outlet/>
-            <Footer/>
+            <footer>
+                <Footer/>
+            </footer>
         </>
     )
 }
