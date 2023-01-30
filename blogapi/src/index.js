@@ -31,6 +31,7 @@ root.render (
                         <Route path="register" element={ <Register/> }/>
                         <Route path="login" element={ <Login/> }/>
                         <Route path="logout" element={ <Logout/> }/>
+                        <Route path="/post/:slug" element={ <Single/> }/>
                         <Route index element={ <App/> }/>
                     </Route>
                 </Routes>

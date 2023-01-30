@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a05c6e8-d409-4b27-9214-b274901c36c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blogapi/src/components/single.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapi/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapi/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,8 @@
       <workItem from="1674496286073" duration="1795000" />
       <workItem from="1674525964285" duration="2207000" />
       <workItem from="1674884285880" duration="2474000" />
-      <workItem from="1674980383194" duration="12749000" />
+      <workItem from="1674980383194" duration="12757000" />
+      <workItem from="1675044445343" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="22/01/23 @ 12-01">
       <created>1674378251705</created>
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675004974537</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="22/01/23 @ 12-01">
+      <created>1675016462375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675016462375</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
